@@ -1,8 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif+SC);
+
 body {
   background-color: purple;
-}
-
-#extras {
   margin: 50px 50px;
   text-align: center;
+}
+
+a {
+  color: black;
+  font-size: 20pt;
+}
+
+h1 {
+  font-family:  "Noto Serif SC";
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+article > section {
+  border-style: ridge;
+  border-color: black;
+  margin: 10px 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  position: fixed;
+  right: 0%;
+  bottom: 0px;
+  left: 0%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+form, #separate {
+  margin: 25% 25%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#separate, #selection {
+  border-radius: 5px;
+}
+
+#separate {
+  background-color: white;
+}
+
+#inception {
+  border-style: groove;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#selection {
+  border-style: dashed;
+  float: right;
+}
+
+#textbox {
+  background-color: rgba(0, 0, 0, 0);
+  border-top: 1px;
+  border-right: 1px;
+  border-left: 1px;
+  outline: none;
+}
+
+#tabs {
+  border-style: solid;
+  padding: 10px;
+  float: left;
+}
+
+#tabs, .taboptions {
+  list-style: none;
+}
+
+.inline {
+  font-size: 12pt;
 }
