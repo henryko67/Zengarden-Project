@@ -1,0 +1,85 @@
+body {
+  background-image: url("polygon.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+footer {
+  position: fixed;
+  right: 0%;
+  left: 0%;
+  bottom: 0px;
+  padding: 10px;
+  background-color: pink;
+  color: black;
+  text-align: center;
+}
+
+form {
+  float: right;
+  width: 20%;
+  justify-content: center;
+  position: absolute;
+  margin-top: 100px;
+  right: 22.5%;
+  background-color: #b7a57a;
+}
+
+
+#tabs, #inception, #intro, #selection, #separate, form, h1 {
+  display: flex;
+}
+
+#intro, #selection, #inception, #separate, form, h1 {
+  align-items: center;
+  flex-direction: column;
+}
+
+#selection, #inception, #separate, #list, form {
+  border-style: solid;
+}
+
+#inception, #separate, #center {
+  width: 55%;
+  margin-left: 22.5%;
+}
+
+#separate, #inception {
+  margin-top: 10px;
+}
+
+#separate {
+  background-color: #85754d;
+}
+
+#inception {
+  background-color: rgb(170, 142, 57);
+}
+
+#selection {
+  float: left;
+  background-color: #e8e3d3;
+}
+
+#tabs {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 16pt;
+}
+
+#list {
+  width: 20%;
+  margin-left: 40%;
+  background-color: orange
+}
+
+.taboptions {
+  padding-right: 10px;
+}

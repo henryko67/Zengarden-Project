@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif+SC);
 
 body {
-  background-color: purple;
+  background-color: #4b2e83;
   margin: 50px 50px;
   text-align: center;
+  padding-top: 80px;
 }
 
 a {
@@ -16,7 +17,17 @@ h1 {
 }
 
 form {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(145, 123, 76, 0.7);
+  width: 250px;
+}
+
+header {
+  top: 0px;
+  border-bottom: 5px solid black;
+}
+
+hr {
+  visibility: hidden;
 }
 
 article > section {
@@ -27,27 +38,50 @@ article > section {
 }
 
 footer {
-  position: fixed;
-  right: 0%;
   bottom: 0px;
-  left: 0%;
   padding: 10px;
   background-color: black;
   color: white;
 }
 
+header, footer {
+  position: fixed;
+  right: 0%;
+  left: 0%;
+}
+
+ul, #selection, #list {
+  background-color: #b7a57a;
+}
+
+#inception, header {
+  background-color: #e8e3d3;
+}
+
 form, #separate {
-  margin: 25% 25%;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-#separate, #selection {
+#separate, #selection, form {
   border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#husky {
+  width: 2%;
+  height: 2%;
 }
 
 #separate {
-  background-color: white;
+  background-color: #85754d;
 }
 
 #inception {
@@ -67,6 +101,16 @@ form, #separate {
   border-right: 1px;
   border-left: 1px;
   outline: none;
+}
+
+#todos {
+  text-align: left;
+}
+
+#list {
+  margin-left: 1000px;
+  margin-right: 1000px;
+  border-style: double;
 }
 
 #tabs {
