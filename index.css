@@ -119,6 +119,11 @@ form, #separate {
   float: left;
 }
 
+#husky {
+  height: 55px;
+  width: 55px;
+}
+
 #tabs, #tabs > li {
   list-style: none;
 }
