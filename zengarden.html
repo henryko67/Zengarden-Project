@@ -23,7 +23,12 @@
   Try to see if you can add some borders on the left and right side of the page and adjust it.
   -->
   <header>
-    <h1><img id="husky" src="Husky.png" alt="https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1017829794673651712%2FPgfGnaaY_400x400.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2Fhuskiescfbsim&docid=Cz9uqGsLnEiT1M&tbnid=fbwf8duSjGM0vM%3A&vet=10ahUKEwjr08uZgKzgAhXBx1QKHbdwB7QQMwhXKAEwAQ..i&w=400&h=400&bih=1249&biw=2560&q=huskies%20uw&ved=0ahUKEwjr08uZgKzgAhXBx1QKHbdwB7QQMwhXKAEwAQ&iact=mrc&uact=8"/>CSS154Garden</h1>
+    <!-- Source: https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%
+    2F1017829794673651712%2FPgfGnaaY_400x400.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2Fhuskiescfbsi
+    m&docid=Cz9uqGsLnEiT1M&tbnid=fbwf8duSjGM0vM%3A&vet=10ahUKEwjr08uZgKzgAhXBx1QKHbdwB7QQMwhXKAEwAQ
+    ..i&w=400&h=400&bih=1249&biw=2560&q=huskies%20uw&ved=0ahUKEwjr08uZgKzgAhXBx1QKHbdwB7QQMwhXKAEwA
+    Q&iact=mrc&uact=8-->
+    <h1><img id="husky" src="Husky.png" alt="Husky Logo"/>CSS154Garden</h1>
     <p id="intro">
       Hello, I'm a p tag. Usually, you would add multiple lines of text in me! Do I have a certain
       limit in terms of lengths of my lines? I am currently inside a header tag. Does that change
@@ -36,37 +41,60 @@
   <hr/>
   <nav>
     <ul id="tabs">
-      <li class="taboptions"><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a></li>
-      <li class="taboptions"><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">w3schools</a></li>
-      <li class="taboptions"><a href="https://courses.cs.washington.edu/courses/cse154/18au/schedule/wpl.html" target="_blank">WPL</a></li>
-      <li class="taboptions"><a href="https://matteovandelli.com/404" target="_blank">Cool 404</a></li>
-      <li class="taboptions"><a href="https://xkcd.com/" target="_blank">xkcd</a></li>
+      <li>
+        <a class="taboptions" href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a>
+      </li>
+      <li>
+        <a class="taboptions" href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">w3schools</a>
+      </li>
+      <li>
+        <a class="taboptions" href="https://courses.cs.washington.edu/courses/cse154/18au/schedule/wpl.html" target="_blank">WPL</a>
+      </li>
+      <li>
+        <a class="taboptions" href="https://matteovandelli.com/404" target="_blank">Cool 404</a>
+      </li>
+      <li>
+        <a class="taboptions" href="https://xkcd.com/" target="_blank">xkcd</a>
+      </li>
     </ul>
   </nav>
   <div id="selection">
     <h2> Try changing my style! </h2>
     <p>
-      Learn more about select tags <a class="inline" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select" target="_blank">
+      Learn more about select tags
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select" target="_blank">
       here</a>.
     </p>
-    <select id="changes">
-      <option value="1"><a href="index.css"> Style 1 </a></option>
-      <option value="2"><a href="style2.css"> Style 2</a></option>
+    <select id="styles">
+      <option value="style.css">Style 0</option>
+      <option value="index.css">Style 1</option>
+      <option value="style2.css">Style 2</option>
     </select>
   </div>
   <main>
     <article id="inception">
       <h2>
         I am an article tag, now tell me, when do you use section and article? How should you
-        use me to the greatest effect? Learn more <a class="inline" href="https://www.w3.org/TR/html5/sections.html#the-article-element" target="_blank">
+        use me to the greatest effect? Learn more
+        <a href="https://www.w3.org/TR/html5/sections.html#the-article-element" target="_blank">
         Here</a>.
       </h2>
       <section>
         <p>
           So, I am a section tag inside an article tag. Just a quick question, is it alright if
-          the order is switched? <span>I am a span tag inside this p tag, I am supposed to be an
-          inline element, what does that mean? How can I be used?</span> Learn more <a class="inline" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">
-          Here</a>. (Ooh, does the hyperlink look fancy? Take a look <a class="inline" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">here</a>
+          the order is switched?
+          <span>
+            I am a span tag inside this p tag, I am supposed to be an inline element, what does
+            that mean? How can I be used?
+          </span>
+          Learn more
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">
+            Here
+          </a>
+          . (Ooh, does the hyperlink look fancy? Take a look
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">
+            here
+          </a>
           on how to modify me.)
         </p>
       </section>
@@ -76,16 +104,24 @@
         <h2>Hello again, I am an h tag in a section.</h2>
         <p>
           How should I be arranged? How am I different from other containers? How should I stand out
-          ? Learn more about h tags <a class="inline" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">
-          here</a>, and learn more about p tags <a class="inline" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">
-          here</a>.
+          ? Learn more about h tags
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">
+            here
+          </a>
+          , and learn more about p tags
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">
+            here
+          </a>.
         </p>
       </section>
       <form>
         <p>
           This is a form, you can give me additional functionality later. For now, how do you want
-          to change my looks? Learn more about forms <a class="inline" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank">
-          here</a>.
+          to change my looks? Learn more about forms
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank">
+            here
+          </a>
+          .
         <p>
         <div id="texts">
           <br /><input id= "textbox" type="text" name="thoughts" />
@@ -99,18 +135,27 @@
         change me?
       </h2>
       <p>
-        Learn more about divs <a class="inline" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">
-        here</a>.
+        Learn more about divs
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">
+          here
+        </a>
+        .
       </p>
-      <img id="inlineimg" src="graphix.gif" alt="Harold transforms to feelsgoodguy"/>
+      <img id="inlineimg" src="background-blank.png" alt="blank picture to replace"/>
     </div>
     <section id="list">
       <h2> Things to check before turning in assignments </h2>
-      <ol  id="todos">
-        <li> Did I check for HTML errors through the <a class="inline" href="https://validator.w3.org/" target="_blank">validation tool</a>? </li>
-        <li> Did I check for CSS errors through the <a class="inline" href="https://jigsaw.w3.org/css-validator/" target="_blank">validation tool</a>?</li>
+      <ol id="todos">
+        <li> Did I check for HTML errors through the
+          <a href="https://validator.w3.org/" target="_blank">validation tool</a>?
+        </li>
+        <li> Did I check for CSS errors through the
+          <a href="https://jigsaw.w3.org/css-validator/" target="_blank">validation tool</a>?
+        </li>
         <li> Did I check for CSS redundancies? </li>
-        <li> Does my program pass <a class="inline" href="https://oxford.cs.washington.edu/cse154/jslint/" target="_blank">JSLINT</a>? </li>
+        <li> Does my program pass
+          <a href="https://oxford.cs.washington.edu/cse154/jslint/" target="_blank">JSLINT</a>?
+        </li>
         <li> Does my assignment meet all the criteria defined by the documentations?</li>
         <li>
           Did I use tags appropriately? Meaning that they were chosen for appropriate content

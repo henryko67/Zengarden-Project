@@ -7,6 +7,10 @@ body {
   padding-bottom: 30px;
 }
 
+/*
+Source of background image: https://www.vecteezy.com/free-vector/polygon-background
+*/
+
 hr {
   border: 1px solid black;
 }
@@ -80,6 +84,6 @@ form {
   background-color: orange
 }
 
-.taboptions {
+#tabs > li {
   padding-right: 10px;
 }

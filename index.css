@@ -119,10 +119,14 @@ form, #separate {
   float: left;
 }
 
-#tabs, .taboptions {
+#tabs, #tabs > li {
   list-style: none;
 }
 
-.inline {
+p > a, li > a {
   font-size: 12pt;
+}
+
+.taboptions {
+  font-size: 20pt;
 }
